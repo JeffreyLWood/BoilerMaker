@@ -1,5 +1,5 @@
 const router = require("express").Router();
-
+const User = require("../db");
 // router.use("/", require("./"));
 
 router.use(function (req, res, next) {
